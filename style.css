@@ -35,7 +35,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 430px;
-    height: 90vh;
+    height: 92vh;
     max-height: 800px;
 
     background: #f8efdF;
@@ -106,7 +106,7 @@ body {
 
 .content h1 {
 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 
     color: #4a3428;
@@ -117,10 +117,13 @@ body {
 
 .content p {
 
-    font-size: 17px;
-    line-height: 2.1;
+    font-size: 15px;
+    line-height: 1.85;
 
-    font-weight: 400;
+    max-height: 55vh;
+    overflow-y: auto;
+
+    padding: 5px 8px;
 
 }
 
